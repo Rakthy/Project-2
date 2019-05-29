@@ -56,6 +56,18 @@ p {
   padding: 0 10px;
 }
 
+
+.container-skills {
+background: rgb(13, 137, 182);
+border: 1px solid brown;
+height: 300px;
+
+}
+ #skills {
+ color: white;
+ font-size: 2em;
+ }
+
 .grid-container {
   background: rgb(240, 242, 255);
 }
@@ -118,9 +130,9 @@ span {
     display: grid;
     grid-gap: 20px;
     grid-template-areas:
-      "box1 box2"
-      "box3 box4"
-      "box5 box6";
+      "box-1 box-1"
+      "box-3 box-4"
+      "box-5 box-6";
   }
 
   .back-to-top {
@@ -176,8 +188,8 @@ span {
   display: grid;
   grid-gap: 20px;
   grid-template-areas:
-    "box1 box2 box3"
-    "box4 box5 box6";
+    "box-1 box-2 box-3"
+    "box-4 box-5 box-6";
 }
 
 }
